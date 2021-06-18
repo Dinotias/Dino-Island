@@ -1,0 +1,32 @@
+#chat {
+border: 8px solid gray;
+width: 1300px;
+
+margin-right: auto;
+margin-left: auto;
+
+height: 625px;
+
+display: flex;
+
+flex-direction: column;
+
+justify-content: flex-end;
+align-items: center;
+}
+
+#caja-de-texto {
+    border: 8px solid gray;
+    width: 90%;
+    display: flex;
+    height: 30px;
+justify-content: center;
+margin-bottom: 30px;
+}
+#caja-de-texto-input {
+    width: 100%;
+    border-width: 0px;
+}
+#caja-de-texto-input:focus {
+    outline: 0px;
+}
